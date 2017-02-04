@@ -82,7 +82,7 @@
     </build>
 
     <scm>
-        <developer>scm:git:https://github.com/abipster/demo-component.git</developer>
+        <connection>scm:git:https://github.com/abipster/demo-component.git</connection>
         <developerConnection>scm:git:https://github.com/abipster/demo-component.git</developerConnection>
     </scm>
 </project>

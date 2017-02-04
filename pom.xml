@@ -81,4 +81,8 @@
         </plugins>
     </build>
 
+    <scm>
+        <developer>scm:git:https://github.com/abipster/demo-component.git</developer>
+        <developerConnection>scm:git:https://github.com/abipster/demo-component.git</developerConnection>
+    </scm>
 </project>

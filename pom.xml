@@ -81,6 +81,19 @@
         </plugins>
     </build>
 
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>localhost.localdomain-releases</name>
+            <url>http://192.168.56.10:8081/artifactory/releases-local</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>localhost.localdomain-snapshots</name>
+            <url>http://192.168.56.10:8081/artifactory/snapshots-local</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <scm>
         <connection>scm:git:https://github.com/abipster/demo-component.git</connection>
         <developerConnection>scm:git:https://github.com/abipster/demo-component.git</developerConnection>

@@ -1,4 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.enear.test</groupId>
@@ -83,13 +83,13 @@
 
     <distributionManagement>
         <repository>
-            <id>central</id>
-            <name>localhost.localdomain-releases</name>
+            <id>abip-artifactory-central</id>
+            <name>abip-artifactory-releases</name>
             <url>http://192.168.56.10:8081/artifactory/releases-local</url>
         </repository>
         <snapshotRepository>
-            <id>snapshots</id>
-            <name>localhost.localdomain-snapshots</name>
+            <id>abip-artifactory-snapshots</id>
+            <name>abip-artifactory-snapshots</name>
             <url>http://192.168.56.10:8081/artifactory/snapshots-local</url>
         </snapshotRepository>
     </distributionManagement>

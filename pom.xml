@@ -4,7 +4,7 @@
     <groupId>com.enear.test</groupId>
     <artifactId>demo-component</artifactId>
     <packaging>war</packaging>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
     <name>demo-component Maven Webapp</name>
     <url>http://maven.apache.org</url>
 
@@ -97,5 +97,6 @@
     <scm>
         <connection>scm:git:https://github.com/abipster/demo-component.git</connection>
         <developerConnection>scm:git:https://github.com/abipster/demo-component.git</developerConnection>
+    <tag>demo-component-1.0.1</tag>
   </scm>
 </project>

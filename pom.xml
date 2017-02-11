@@ -83,7 +83,7 @@
 
     <distributionManagement>
         <repository>
-            <id>abip-artifactory-central</id>
+            <id>abip-artifactory-releases</id>
             <name>abip-artifactory-releases</name>
             <url>http://192.168.56.10:8081/artifactory/libs-release-local</url>
         </repository>
@@ -97,6 +97,5 @@
     <scm>
         <connection>scm:git:https://github.com/abipster/demo-component.git</connection>
         <developerConnection>scm:git:https://github.com/abipster/demo-component.git</developerConnection>
-    <tag>HEAD</tag>
-  </scm>
+    </scm>
 </project>

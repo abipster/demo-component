@@ -85,12 +85,12 @@
         <repository>
             <id>abip-artifactory-releases</id>
             <name>abip-artifactory-releases</name>
-            <url>http://192.168.56.10:8081/artifactory/libs-release-local</url>
+            <url>http://192.168.56.12:8081/artifactory/libs-release-local</url>
         </repository>
         <snapshotRepository>
             <id>abip-artifactory-snapshots</id>
             <name>abip-artifactory-snapshots</name>
-            <url>http://192.168.56.10:8081/artifactory/libs-snapshot-local</url>
+            <url>http://192.168.56.12:8081/artifactory/libs-snapshot-local</url>
         </snapshotRepository>
     </distributionManagement>
 
